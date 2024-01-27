@@ -42,11 +42,6 @@ body {
     color: #ffffff;
     border-radius: 5px;
 }
-
-.searchbutton:hover{
-    background-color: #3917d0;
-}
-
 .result {
     position: relative;
 }
@@ -86,4 +81,13 @@ body {
 .error {
     margin-top: 80px;
     text-align: center;
+}
+
+.hoverButton:hover{
+    background-color: #320cde;
+}
+
+.hoverIcon:hover{
+    color: #320cde;
+
 }

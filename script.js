@@ -2,6 +2,7 @@ const url = "https://api.dictionaryapi.dev/api/v2/entries/en/";
 const result = document.getElementById("result");
 const sound = document.getElementById("sound");
 const btn = document.getElementById("search-btn");
+
 btn.addEventListener("click", () => {
     let inpWord = document.getElementById("inp-word").value;
     fetch(`${url}${inpWord}`)
@@ -12,7 +13,7 @@ btn.addEventListener("click", () => {
             <div class="word">
                     <h3>${inpWord}</h3>
                     <button onclick="playSound()">
-                        <i class="fas fa-volume-up"></i>
+                        <i class="fas fa-volume-up hoverIcon"></i>
                     </button>
                 </div>
                 <div class="details">
